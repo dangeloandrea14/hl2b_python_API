@@ -4,13 +4,13 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(name='howlongtobeatpy',
-      version='1.0.5',
+      version='1.0.6',
       packages=find_packages(exclude=['tests']),
       description='A Python API for How Long to Beat',
       long_description=long_description,
       long_description_content_type="text/markdown",
-      url='https://github.com/ScrappyCocco/HowLongToBeat-PythonAPI',
-      author='ScrappyCocco',
+      url='https://github.com/dangeloandrea14/hl2b_python_API',
+      author='ScrappyCocco - Shoken',
       license='MIT',
       keywords='howlongtobeat gaming steam uplay origin time length how long to beat',
       install_requires=[
