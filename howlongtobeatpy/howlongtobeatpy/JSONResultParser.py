@@ -58,6 +58,8 @@ class JSONResultParser:
         current_entry.game_image_url = self.IMAGE_URL_PREFIX + input_game_element["game_image"]
         current_entry.game_web_link = self.GAME_URL_PREFIX + str(current_entry.game_id)
         current_entry.review_score = input_game_element["review_score"]
+        current_entry.people_polled = input_game_element["comp_all_count"]
+        current_entry.review_count = input_game_element["count_review"]
         current_entry.profile_dev = input_game_element["profile_dev"]
         current_entry.profile_platforms = input_game_element["profile_platform"].split(", ")
         current_entry.release_world = input_game_element["release_world"]

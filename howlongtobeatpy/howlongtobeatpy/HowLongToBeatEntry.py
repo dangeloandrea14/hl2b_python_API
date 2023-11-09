@@ -20,10 +20,14 @@ class HowLongToBeatEntry:
         self.game_web_link = None
         # The review score
         self.review_score = None
+        self.review_count = None
         # The name of the dev
         self.profile_dev = None
         # The list of the platforms for the title
         self.profile_platforms = None
+        ##test backlogs
+        self.people_polled = None
+
         # Should contain the release year
         self.release_world = None
         # Similarity between this entry game name and the searched string
