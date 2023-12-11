@@ -31,11 +31,6 @@ It is inspired by [ckatzorke - howlongtobeat](https://github.com/ckatzorke/howlo
 
 ## Installation
 
-### Installing the package downloading the last release
-
-```python
-pip install howlongtobeatpy
-```
 
 ### Installing the package from the source code
 
